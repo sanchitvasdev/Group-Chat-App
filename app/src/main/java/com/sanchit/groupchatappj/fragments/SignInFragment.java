@@ -58,16 +58,6 @@ import butterknife.BindView;
  */
 public class SignInFragment extends Fragment {
     GoogleSignInClient googleSignInClient ;
-//    @BindView(R.id.emailIdEt)
-//    EditText emailIdEt;
-//    @BindView(R.id.passwordEt)
-//    EditText passwrodEt;
-//    @BindView(R.id.nextBtnsignin)
-//    Button nextBtnsignin;
-//    @BindView(R.id.signInBtn)
-//    SignInButton signInBtn;
-//    @BindView(R.id.visibilityimg)
-//    ImageView visibilityimg;
     @BindView(R.id.ortv)
     TextView ortv;
 
