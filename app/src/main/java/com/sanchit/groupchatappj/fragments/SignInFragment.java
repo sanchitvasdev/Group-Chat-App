@@ -285,14 +285,8 @@ public class SignInFragment extends Fragment {
      */
     private void updateUI(FirebaseUser user){
         if(user != null){
-//            emailIdEt.setVisibility(View.INVISIBLE);
-//            passwrodEt.setVisibility(View.INVISIBLE);
-//            visibilityimg.setVisibility(View.INVISIBLE);
-//            nextBtnsignin.setVisibility(View.INVISIBLE);
-//            ortv.setVisibility(View.INVISIBLE);
             check();
         }else{
-//            signInBtn.setVisibility(View.VISIBLE);
         }
     }
 
